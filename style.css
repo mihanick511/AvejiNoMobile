@@ -1,0 +1,407 @@
+.header__wrap
+{
+	padding-top: 15px;
+}
+.header__logo
+{
+	flex-basis: 60%;
+	padding-top: 0;
+}
+.header__contacts
+{
+	flex-basis: 40%;
+}
+.header__contacts
+{
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+.header__contacts-list
+{
+	margin-right: 207px;
+}
+.header__contacts-list a
+{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	color: hsla(210, 11%, 15%, 1);
+}
+.header__contacts-list li:not(:last-child)
+{
+	margin-bottom: 8px;
+}
+.header__phone
+{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	color:hsla(210, 11%, 15%, 1);
+}
+.header__wrap
+{
+	margin-bottom: 40px;
+}
+
+
+.title__one-link
+{
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.title__one
+{
+	color: #212529;
+	font-family: Helvetica;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120%; /* 86.4px */
+	text-transform: uppercase;
+	max-width: 794px;
+}
+.title__link
+{
+	color: hsla(210, 11%, 15%, 1);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration:  underline;
+	text-underline-offset: 5px;
+	padding-bottom: 10px;
+}
+
+
+.holl
+{
+	margin-bottom: 120px;
+}
+.holl__text p
+{
+	width: 445px;
+	color: #212529;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 140%;
+	margin-bottom: 232px;
+}
+
+
+.text__centr-wrap
+{
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	margin-bottom: 142px;
+}
+.title__two
+{
+	max-width: 562px;
+}
+.text__title-paragraph
+{
+	margin-bottom: 44px;
+}
+.text__title-paragraph p
+{
+	max-width: 446px;
+}
+.text__title-paragraph p:not(:last-child)
+{
+	margin-bottom: 16px;
+}
+.text__title-deadlines p:not(:last-child)
+{
+	margin-bottom: 24px;
+}
+
+
+.weareworking
+{
+	margin-bottom: 120px;
+}
+.weareworking__wrap
+{
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+.weareworking__wrap-algo
+{
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+.weareworking__wrap h2
+{
+	max-width: 562px;
+}
+.algoritm
+{
+	padding-top: 14px;
+	max-width: 325px;
+	margin-bottom: 44px;
+}
+.g-title--three
+{
+	color: #212529;
+	font-family: Helvetica;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: normal;
+}
+.weareworking__text-item:not(:last-child)
+{
+	padding-bottom: 24px;
+	margin-bottom: 36px;
+}
+.weareworking__text-item
+{
+	position: relative;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+.weareworking__text-item::before
+{
+	content: "";
+	position: absolute;
+	top: 132px;
+	width: 678px;
+	height: 1px;
+	background: hsla(0, 0%, 0%, 1);
+}
+.weareworking__text-item p
+{
+	max-width: 329px;
+}
+.weareworking__text-item h3
+{
+	max-width: 328px;
+	margin-right: 20px;
+}
+
+
+
+.projects
+{
+	margin-bottom: 120px;
+}
+.projects h2
+{
+	margin-bottom: 32px;
+}
+.projects__wrap
+{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+}
+.projects__wrap:not(:last-child)
+{
+	margin-bottom: 20px;
+}
+.projects__wrap-items:not(:last-child)
+{
+	margin-right: 20px;
+}
+.projects__wrap-items img
+{
+	object-fit: contain; width: 100%; height: 100%;
+}
+
+
+
+.reviews
+{
+	margin-bottom: 120px;
+}
+.reviews__wrap
+{
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+.reviews__title
+{
+	margin-bottom: 32px;
+}
+.reviews__item
+{
+	border: 1px solid #000;
+	background: #FFF;
+	flex-basis: 32.5%;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 60px;
+	max-width: 445px;
+}
+.image__wrap
+{
+	display: flex;
+	justify-content: center;
+}
+.image__wrap
+{
+	margin-bottom: 32px;
+}
+.reviews__name
+{
+	display: flex;
+	justify-content: center;
+	color: #212529;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 20px;
+}
+.reviews__text
+{
+	color: #212529;
+	text-align: center;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 140%;
+	max-width: 365px;
+	height: 110px;
+}
+
+
+.order
+{
+	margin-bottom: 120px;
+	display: flex;
+	align-items: start;
+	justify-content: left;
+}
+.order__title
+{
+	margin-bottom: 32px;
+}
+.order p
+{
+	color: #000;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 140%;
+	margin-bottom: 72px;
+}
+.order__questionnaire input
+{
+	display: block;
+	color: #212529;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	max-width: 562px;
+	flex-direction: column;
+	justify-content: center;
+	align-items:start;
+	flex-shrink: 0;
+	border-bottom: 1px solid hsla(210, 11%, 15%, 1);
+	padding-right: 497px;
+	padding-bottom: 12px;
+}
+.order__questionnaire input:not(:last-child)
+{
+	margin-bottom: 16px;
+}
+.order__input-block
+{
+	margin-bottom: 27px;
+}
+.order__btn
+{
+	padding: 12px 20px;
+	background: #212529;
+	color: #FFF;
+	text-align: center;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 140%;
+	margin-bottom: 40px;
+}
+.order__svg-wrap
+{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.order__app-store
+{
+	margin-right: 8px;
+}
+.order__bilal-mansuri
+{
+	margin-right: 136px;
+}
+
+
+.footer__margin
+{
+	margin-bottom: 16px;
+}
+.footer__mark
+{
+	color: #212529;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.footer__save
+{
+	color: #212529;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.footer_text
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__delivery
+{
+	color: #212529;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 140%;
+}
+.footer__text-link
+{
+	display: flex;
+}
+.footer__text-link p
+{
+	color: #212529;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.footer__vk
+{
+	margin-right: 40px;
+}
